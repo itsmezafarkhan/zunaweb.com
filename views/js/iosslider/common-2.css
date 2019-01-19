@@ -1,0 +1,455 @@
+.slide_main_bg {
+	width: 100%;
+	height:520px;
+	position: relative;
+	background: url(../../images/slider/slider-bg.jpg) no-repeat center top;
+}
+.fluidHeight {
+	width: 1000px;
+	padding: 0px 0 499px 0;
+	margin: 0px auto 0px auto;
+	position: relative;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+}
+.sliderContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+.iosSlider {
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 20px;
+	height: 499px;
+}
+.iosSlider .slider {
+	width: 100%;
+	height: 100%;
+}
+.iosSlider .slider .item {
+	width: 100%;
+	height: 100%;
+	padding: 0px 0 0px 0;
+	
+}
+.iosSlider .slider .item .inner {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+}
+.iosSlider .slider .item .inner .text1 {
+    position: absolute;
+    left: 0px;
+    top: 65px;
+    padding: 0;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #fff;
+    font-size: 45px;
+	line-height: 45px;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+.iosSlider .slider .item .inner .text2 {
+    position: absolute;
+    left: 0;
+    top: 125px;
+	color: #fff;
+	font-weight: normal;
+    font-size: 18px;
+	line-height: 18px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+.iosSlider .slider .item .sub_text2 ul {
+	position: absolute;
+	top: 160px;
+}
+.iosSlider .slider .item .sub_text2 li {
+	color: #fff;
+	font-weight: normal;
+    font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	background: url(../../images/slider/tickmark-icon.png) no-repeat left 1px;
+	padding: 0px 0 0 25px;
+	margin: 20px 0 0 0;
+}
+
+a.more-but-slide{
+	float: left;
+	position: absolute;
+	padding: 0px 35px 0 15px;
+	margin: 0 15px 0 0;
+	background: #3b3b3b url(../../images/slider/arrow-1.png) no-repeat right 15px;
+	min-height: 43px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: #fff;
+	line-height: 43px;
+	text-transform: uppercase;
+	border: 2px solid #2f2f2f;
+	top: 370px;
+}
+
+a.more-but-slide:hover {
+	color: #00e4f8;
+}
+
+.iosSlider .slider .item .inner .slider-image {
+	width: 441px;
+	height: 502px;
+	float: right;
+}
+.iosSlider .slider .item .inner .slider-image img {
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+.sliderContainer .slideSelectors {
+	position: relative;
+	bottom: 30px;
+	width: 55%;
+	padding-left: 45%;
+	margin: 0 auto;
+	z-index: 1;
+	height: 25px;
+}
+.sliderContainer .slideSelectors .item {
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: url(../../images/slider/slider2-next-buts.png) no-repeat center top;
+	margin: 0 4px 0 0px;
+	opacity: 0.36;
+	filter: alpha(opacity=36);
+}
+.sliderContainer .slideSelectors .selected {
+	background: url(../../images/slider/slider2-next-buts.png) no-repeat center top;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+
+a.slider_more {
+	color: #727272;
+	font-size: 14px;
+	min-height: 22px;
+	float: left;
+	margin-top: 27px;
+	padding-left: 27px;
+	text-transform: uppercase;
+	background: url(../../images/slider/arrow-slider.png) no-repeat left 3px;
+}
+
+
+
+@media only screen and (min-width: 1000px){}
+@media only screen and (min-width: 768px) and (max-width: 999px){
+
+.slide_main_bg {
+	width: 100%;
+	height:400px;
+	position: relative;
+	background: url(../../images/slider/slider-bg.jpg) no-repeat center top;
+}
+.fluidHeight {
+	width: 766px;
+	padding: 0px 0 379px 0;
+}
+.iosSlider {
+	margin-top: 20px;
+	height: 379px;
+}
+
+.iosSlider .slider .item .inner .text1 {
+    position: absolute;
+    left: 0px;
+    top: 35px;
+    padding: 0;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #fff;
+    font-size: 35px;
+	line-height: 35px;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+.iosSlider .slider .item .inner .text2 {
+    position: absolute;
+    left: 0;
+    top: 85px;
+	color: #fff;
+	font-weight: normal;
+    font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+.iosSlider .slider .item .sub_text2 ul {
+	position: absolute;
+	top: 120px;
+}
+.iosSlider .slider .item .sub_text2 li {
+	color: #fff;
+	font-weight: normal;
+    font-size: 11px;
+	line-height: 11px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	background: url(../../images/slider/tickmark-icon.png) no-repeat left top;
+	padding: 0px 0 0 25px;
+	margin: 18px 0 0 0;
+}
+
+a.more-but-slide{
+	float: left;
+	position: absolute;
+	padding: 0px 35px 0 15px;
+	margin: 0 15px 0 0;
+	background: #3b3b3b url(../../images/slider/arrow-1.png) no-repeat right 10px;
+	min-height: 34px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: #fff;
+	line-height: 34px;
+	text-transform: uppercase;
+	border: 2px solid #2f2f2f;
+	top: 300px;
+}
+
+.iosSlider .slider .item .inner .slider-image {
+	width: 341px;
+	height: 388px;
+	float: right;
+}
+.iosSlider .slider .item .inner .slider-image img {
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+
+a.slider_more {
+	color: #727272;
+	font-size: 14px;
+	min-height: 22px;
+	float: left;
+	margin-top: 27px;
+	padding-left: 27px;
+	text-transform: uppercase;
+	background: url(../../images/slider/arrow-slider.png) no-repeat left 3px;
+}
+
+	
+
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+
+.slide_main_bg {
+	width: 100%;
+	height: 311px;
+	position: relative;
+	background: url(../../images/slider/slider-bg.jpg) no-repeat center top;
+}
+.fluidHeight {
+	width: 478px;
+	padding: 0px 0 300px 0;
+}
+.iosSlider {
+	margin-top: 10px;
+	height: 300px;
+}
+
+.iosSlider .slider .item .inner .text1 {
+    position: absolute;
+    left: 0px;
+    top: 35px;
+    padding: 0;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #fff;
+    font-size: 21px;
+	line-height: 21px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.iosSlider .slider .item .inner .text2 {
+    position: absolute;
+    left: 0;
+    top: 65px;
+	color: #fff;
+	font-weight: normal;
+    font-size: 11px;
+	line-height: 11px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.iosSlider .slider .item .sub_text2 ul {
+	position: absolute;
+	top: 86px;
+}
+.iosSlider .slider .item .sub_text2 li {
+	color: #fff;
+	font-weight: normal;
+    font-size: 9px;
+	line-height: 9px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	background: url(../../images/slider/tickmark-icon2.png) no-repeat left top;
+	padding: 0px 0 0 18px;
+	margin: 14px 0 0 0;
+}
+
+a.more-but-slide{
+	float: left;
+	position: absolute;
+	padding: 0px 35px 0 15px;
+	margin: 0 15px 0 0;
+	background: #3b3b3b url(../../images/slider/arrow-1.png) no-repeat right 5px;
+	min-height: 25px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	color: #fff;
+	line-height: 25px;
+	text-transform: uppercase;
+	border: 2px solid #2f2f2f;
+	top: 225px;
+}
+
+.iosSlider .slider .item .inner .slider-image {
+	width: 270px;
+	height: 307px;
+	float: right;
+}
+.iosSlider .slider .item .inner .slider-image img {
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+
+a.slider_more {
+	color: #727272;
+	font-size: 14px;
+	min-height: 22px;
+	float: left;
+	margin-top: 27px;
+	padding-left: 27px;
+	text-transform: uppercase;
+	background: url(../../images/slider/arrow-slider.png) no-repeat left 3px;
+}
+
+	
+
+}
+
+
+@media only screen and (max-width: 480px){
+
+.slide_main_bg {
+	width: 100%;
+	height: 285px;
+	position: relative;
+	background: url(../../images/slider/slider-bg.jpg) no-repeat center top;
+}
+.fluidHeight {
+	width: 318px;
+	padding: 0px 0 280px 0;
+}
+.iosSlider {
+	margin-top: 5px;
+	height: 280px;
+}
+
+.iosSlider .slider .item .inner .text1 {
+    position: absolute;
+    left: 0px;
+    top: 35px;
+    padding: 0;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #fff;
+    font-size: 21px;
+	line-height: 21px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.iosSlider .slider .item .inner .text2 {
+    position: absolute;
+    left: 0;
+    top: 65px;
+	color: #fff;
+	font-weight: normal;
+    font-size: 11px;
+	line-height: 11px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.iosSlider .slider .item .sub_text2 ul {
+	position: absolute;
+	top: 86px;
+}
+.iosSlider .slider .item .sub_text2 li {
+	color: #fff;
+	font-weight: normal;
+    font-size: 9px;
+	line-height: 9px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	background: url(../../images/slider/tickmark-icon2.png) no-repeat left top;
+	padding: 0px 0 0 18px;
+	margin: 14px 0 0 0;
+}
+
+a.more-but-slide{
+	float: left;
+	position: absolute;
+	padding: 0px 35px 0 15px;
+	margin: 0 15px 0 0;
+	background: #3b3b3b url(../../images/slider/arrow-1.png) no-repeat right 5px;
+	min-height: 25px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	color: #fff;
+	line-height: 25px;
+	text-transform: uppercase;
+	border: 2px solid #2f2f2f;
+	top: 225px;
+}
+
+.iosSlider .slider .item .inner .slider-image {
+	width: 250px;
+	height: 285px;
+	float: right;
+}
+.iosSlider .slider .item .inner .slider-image img {
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+
+a.slider_more {
+	color: #727272;
+	font-size: 14px;
+	min-height: 22px;
+	float: left;
+	margin-top: 27px;
+	padding-left: 27px;
+	text-transform: uppercase;
+	background: url(../../images/slider/arrow-slider.png) no-repeat left 3px;
+}
+
+
+
+}

@@ -1,0 +1,12 @@
+#to allow subdomains use files from domain - CROS Issue solution
+Header add Access-Control-Allow-Origin "*" 
+#<Files "dsalopekmvc">
+#   order allow,deny
+#   allow from all
+#</Files>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?load=$1 [L,QSA,B] 
+#[PT,L] - Old | [L,QSA,B] is for query since & was not been accepted
+
